@@ -137,7 +137,7 @@ def search_function(query: str):
     return results
 
 # Searchbox
-st.markdown("<h2 style='color:white; text-shadow:1px 1px 4px black;'>Thông tin tìm kiếm</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='color:white; text-shadow:1px 1px 4px black;'></h2>", unsafe_allow_html=True)
 
 selected_question = st_searchbox(
     search_function,
