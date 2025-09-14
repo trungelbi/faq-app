@@ -1,69 +1,83 @@
 import streamlit as st
 from streamlit_searchbox import st_searchbox
-import os, yaml, re
-import base64
+import os, yaml, re, base64
 
-def get_base64_of_bin_file(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+def get_base64_of_file(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
 
 # ==============================
-# CSS cho background + searchbox giữa màn hình
+# CSS
 # ==============================
-bg_file = "images/background.jpg"
-bg_ext = "jpg"  # hoặc "png" tùy file của bạn
-bg_base64 = get_base64_of_bin_file(bg_file)
+bg_file = "images/background.png"
+bg_ext = "png"
+bg_base64 = get_base64_of_file(bg_file)
 
 st.markdown(
     f"""
     <style>
-    /* Ẩn header và footer */
     header {{visibility: hidden;}}
     footer {{visibility: hidden;}}
 
-    /* Background chiếm full màn hình */
     .stApp {{
         background: url("data:image/{bg_ext};base64,{bg_base64}") no-repeat center center fixed;
         background-size: cover;
-        height: 100vh; /* chiếm toàn bộ chiều cao cửa sổ */
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }}
 
-    /* Container căn giữa */
-    .centered-container {{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    /* ép container searchbox cố định */
+    div[data-testid="stVerticalBlock"]:has(div[data-baseweb="select"]) {{
+        position: fixed !important;
+        top: 20% !important;   /* searchbox */
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        z-index: 9999 !important;
+        width: 600px;
         text-align: center;
     }}
 
-    /* Style cho searchbox */
-    div[data-baseweb="select"] > div {{
-        background-color: #ffffff !important;
-        border: 1px solid #dfe1e5 !important;
-        border-radius: 999px !important;
-        box-shadow: none !important;
-        min-height: 44px !important;
-        font-size: 16px !important;
-        width: 500px !important;
+    /* Câu trả lời chiếm hết từ dưới searchbox đến đáy màn hình */
+    #answer-fixed {{
+        position: fixed;
+        top: 40%;                 /* bắt đầu ngay dưới searchbox */
+        bottom: 0;                 /* kéo dài xuống hết màn hình */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        overflow-y: auto;
+        background: rgba(255,255,255,0.95);
+        border: 2px solid #1a73e8;
+        border-radius: 12px 12px 0 0;
+        padding: 15px;
+        z-index: 9998;
+        box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
     }}
 
-    div[data-baseweb="select"] > div:focus-within {{
-        border: 1px solid #4285f4 !important;
-        box-shadow: 0 1px 6px rgba(32,33,36,0.28) !important;
+    /* Highlight box cho phần nội dung trả lời */
+    .answer-box {{
+        background: #fff8dc;
+        border: 2px solid #f4c542;
+        border-radius: 10px;
+        padding: 12px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #000;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        white-space: pre-wrap;
+    }}
+    .answer-box img {{
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     }}
     </style>
     """,
     unsafe_allow_html=True
 )
 
-
 # ==============================
-# Load dữ liệu từ Markdown
+# Load dữ liệu
 # ==============================
 def load_markdown_files(folder="faqs"):
     data = []
@@ -85,30 +99,35 @@ def load_markdown_files(folder="faqs"):
                     })
     return data
 
-# ==============================
-# Render markdown + ảnh
-# ==============================
-def render_markdown_with_images(md_text):
-    pattern = r'!\[.*?\]\((.*?)\)'  # tìm ảnh ![alt](path)
-    parts = re.split(pattern, md_text)
-
-    for i, part in enumerate(parts):
-        if i % 2 == 0:
-            st.markdown(part, unsafe_allow_html=True)
+# Convert Markdown → HTML (xử lý ảnh local thành base64)
+def convert_markdown_to_html(md_text, base_folder="faqs"):
+    def replace_img(match):
+        alt_text, path = match.groups()
+        if os.path.isabs(path):
+            full_path = path
         else:
-            img_path = os.path.join(part)
-            if os.path.exists(img_path):
-                st.image(img_path, width="stretch")   # ✅ thay vì use_container_width
-            else:
-                st.warning(f"⚠️ Không tìm thấy ảnh: {img_path}")
+            full_path = os.path.join(base_folder, path)
+            if not os.path.exists(full_path):
+                full_path = path
+
+        if os.path.exists(full_path):
+            ext = os.path.splitext(full_path)[1][1:].lower() or "png"
+            img_base64 = get_base64_of_file(full_path)
+            return f'<img src="data:image/{ext};base64,{img_base64}" alt="{alt_text}">'
+        else:
+            return f'<div style="color:red;">⚠️ Không tìm thấy ảnh: {path}</div>'
+
+    pattern = r'!\[(.*?)\]\((.*?)\)'
+    html = re.sub(pattern, replace_img, md_text)
+    html = html.replace("\n", "<br>")
+    return html
 
 # ==============================
-# Khởi chạy app
+# App
 # ==============================
 faq_data = load_markdown_files()
 
 def search_function(query: str):
-    """Hàm gợi ý câu hỏi theo từ khóa."""
     results = []
     if query:
         for item in faq_data:
@@ -117,32 +136,47 @@ def search_function(query: str):
                 results.append(item["question"])
     return results
 
-# ==============================
-# Nội dung giữa màn hình
-# ==============================
-st.markdown('<div class="centered-container">', unsafe_allow_html=True)
-
-st.markdown("<h1 style='color:white; text-shadow:1px 1px 4px black;'>📘 Thông tin tìm kiếm</h1>", unsafe_allow_html=True)
+# Searchbox
+st.markdown("<h2 style='color:white; text-shadow:1px 1px 4px black;'>Thông tin tìm kiếm</h2>", unsafe_allow_html=True)
 
 selected_question = st_searchbox(
     search_function,
     key="faq_search",
-    placeholder="🔍 Nhập từ khóa (ví dụ: mã số thuế)"
+    placeholder="🔍 Nhập câu hỏi/từ khóa (ví dụ: mã số thuế)"
 )
 
-st.markdown('</div>', unsafe_allow_html=True)
+# Auto-select khi focus vào searchbox
+st.markdown(
+    """
+    <script>
+    const observer = new MutationObserver(() => {
+        const input = window.parent.document.querySelector('input[data-baseweb="input"]');
+        if (input) {
+            input.onfocus = function() { this.select(); };
+        }
+    });
+    observer.observe(window.parent.document, {childList: true, subtree: true});
+    </script>
+    """,
+    unsafe_allow_html=True
+)
 
-
-# ==============================
-# Hiển thị câu trả lời nếu chọn câu hỏi
-# ==============================
+# Answer highlight
 if selected_question and isinstance(selected_question, str):
-    selected_question = selected_question.strip()
-    matched = [r for r in faq_data if r["question"].strip() == selected_question]
-
+    matched = [r for r in faq_data if r["question"].strip() == selected_question.strip()]
     if matched:
         answer = matched[0]["answer"]
-        st.markdown("### ✨ Câu trả lời:")
-        render_markdown_with_images(answer)
+
+        answer_html = convert_markdown_to_html(answer)
+
+        st.markdown(
+            f"""
+            <div id="answer-fixed">
+                <h3 style="margin-top:0; color:#1a73e8;">✨ Câu trả lời:</h3>
+                <div class="answer-box">{answer_html}</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
     else:
         st.warning(f"❌ Không tìm thấy câu hỏi: {selected_question}")
