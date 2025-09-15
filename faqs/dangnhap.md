@@ -201,4 +201,46 @@ Doanh nghiệp phải thực hiện thông báo phương pháp trích khấu hao
 
 
 Ngoài ra, DN tìm hiểu, nghiên cứu các chính sách pháp luật khác có liên quan như Luật doanh nghiệp, Luật kế toán, Luật thương mại,...
+---
+question: "HƯỚNG DẪN LẬP HÓA ĐƠN TỪNG LẦN PHÁT SINH ĐỐI VỚI HỘ KINH DOANH THEO PHƯƠNG PHÁP KHOÁN"
+keywords: ["hướng dẫn", "hoá đơn", "hộ kinh doanh", "phương pháp", "khoán"]
+---
+Đăng nhập vào địa chỉ https://hoadondientu.gdt.gov.vn/ , đăng nhập vào tên đăng nhập và mật khẩu đã được cấp qua email và tiến hành lập hóa đơn
+Đối với Hóa đơn có giảm thuế GTGT theo Nghi Quyết 43
+-	Thành tiền: ghi đầy đủ tiền hàng hóa, dịch vụ trước khi giảm = số tiền doanh thu trên hợp đồng
+-	Tổng số tiền thanh toán bằng số: ghi theo số tiền thanh toán đã được giảm thuế = số tiền trên hợp đồng – số thuế GTGT được giảm theo Nghị Quyết 43
+-	Ghi chú: đã giảm… (số tiền) tương ứng 20% mức tỷ lệ % để tính thuế giá trị gia tăng theo Nghị quyết số 43/2022/QH15
+Lập mới Hóa đơn bán hàng (Hộ kinh doanh phương pháp khoán)
+![Ảnh minh họa](images/khoan.jpg)
+o	Bước 1: Vào mục Quản lý danh mục Danh mục ký hiệu hóa đơn. Bên góc phải tích chọn Hóa đơn lần phát sinh, loại hóa đơn: hóa đơn bán hàng.
+Đặt 2 ký tự cuối cho Ký hiệu hóa đơn, lưu ý: 2 ký tự chữ hoa tùy chọn nhưng phải dùng thống nhất cho các lần xin cấp hóa đơn sau.
+o	Bước 2: Chọn Loại hóa đơn: Hóa đơn điện tử bán hàng, nhập các thông tin bắt buộc (*) còn lại.
+![Ảnh minh họa](images/khoan1.png)
+o	Bước 2: Nhấn Lập hoá đơn hiển thị màn hình Hóa đơn bán hàng bao gồm các chức năng: Xem hóa đơn, Lưu tạm, Trình phê duyệt, Ký gửi, Phê duyệt, Nhập mới, Quay lại.
+-	Bước 3: Nhập các thông tin vào hóa đơn
++ Nhấn Xem hóa đơn: Xem trước hóa đơn, hiển thị hóa đơn Giá trị gia tăng bao gồm các thông tin đã nhập
+![Ảnh minh họa](images/khoan2.jpg)
+Giao diện hóa đơn bán hàng
+Nhấn X: để đóng hóa đơn
++	Nhấn Lưu tạm để thực hiện lưu tạm hóa đơn thành công. Hiển thị mẫu hóa đơn Giá trị gia tăng bao gồm chức năng Lập mới hóa đơn điện tử.
++ Nhấn lập mới hóa đơn điện tử: quay trở về màn hình Lập mới hóa đơn.
++	Nhấn Trình phê duyệt  màn hình hiển thị hộp thoại Trình phê duyệt bao gồm danh sách người phê duyệt và chức năng Trình phê duyệt/ Hủy.
+![Ảnh minh họa](images/khoan3.png)
+o	Chọn người phụ trách
+o	Nhấn  Trình phê duyệt thì Hóa đơn được gửi sang tài khoản của người phụ trách phê duyệt. Cổng điện tử thông báo Trình phê duyệt thành công đồng thời hiển thị mẫu hóa đơn Giá trị gia tăng bao gồm chức năng Lập mới hóa đơn điện tử.
+o	Nhấn  Huỷ để hủy bỏ thao tác Trình phê duyệt.
++	Nhấn Ký gửi  hiển thị màn hình Thông tin chứng thư để kí số (Hộ Kinh doanh thì không cần kí số)
+![Ảnh minh họa](images/khoan4.png)
+Chọn Đồng ý , xuất hộp thoại để nhập mã pin
+![Ảnh minh họa](images/khoan5.png)
+o	Chọn Đăng nhập (Login) -> Hóa đơn được ký gửi thành công
+![Ảnh minh họa](images/khoan6.png)
+Hóa đơn bán hàng đã ký gửi thành công
+o	Nhấn Nhập mới  để Cổng điện tử xóa hết các thông tin đã nhập trước đó để nhập lại mới hóa đơn khác.
+o	Nhấn Phê duyệt  để chuyển hóa đơn lên CQT
+o	Nhấn Quay lại  để trở về màn hình Lập mới hóa đơn theo lần phát sinh
+Đối với Hóa đơn có giảm thuế GTGT theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội về giảm thuế giá trị gia tăng 
+-	Thành tiền: ghi đầy đủ tiền hàng hóa, dịch vụ trước khi giảm = số tiền doanh thu trên hợp đồng
+-	Tổng số tiền thanh toán bằng số: ghi theo số tiền thanh toán đã được giảm thuế = số tiền trên hợp đồng – số thuế GTGT được giảm theo Nghị Quyết 43
+-	Ghi chú: đã giảm… (số tiền) tương ứng 20% mức tỷ lệ % để tính thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15
 
