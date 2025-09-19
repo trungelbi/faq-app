@@ -243,4 +243,80 @@ o	Nhấn Quay lại  để trở về màn hình Lập mới hóa đơn theo l�
 -	Thành tiền: ghi đầy đủ tiền hàng hóa, dịch vụ trước khi giảm = số tiền doanh thu trên hợp đồng
 -	Tổng số tiền thanh toán bằng số: ghi theo số tiền thanh toán đã được giảm thuế = số tiền trên hợp đồng – số thuế GTGT được giảm theo Nghị Quyết 43
 -	Ghi chú: đã giảm… (số tiền) tương ứng 20% mức tỷ lệ % để tính thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15
+---
+question: "HƯỚNG DẪN BỔ SUNG CĂN CƯỚC CÔNG DÂN HOẶC THAY ĐỔI NƠI CƯ TRÚ TRÊN TRANG THUEDIENTU.GDT.GOV.VN"
+keywords: ["hướng dẫn", "bổ sung", "căn cước công dân", "thay đổi", "nơi cư trú", "web", "thuedientu"]
+---
+1.	BỔ SUNG CĂN CƯỚC CÔNG DÂN
+2.	THAY ĐỔI NƠI CƯ TRÚ
+Cần có: thông tin cần bổ sung như ảnh Căn cước công dân (nếu bổ sung CCCD), giấy tờ xác nhận nơi cư trú như hộ khẩu,tạm trú – tạm vắng (nếu cần THAY ĐỔI NƠI CƯ TRÚ)
+Các bước thực hiện:
+Bước 1: Người nộp thuế đăng nhập vào trang thuedientu.gdt.gov.vn => chọn CÁ NHÂN
+![Ảnh minh họa](images/cau8.jpg)
+
+Giao diện hiện ra, chọn đăng nhập
+![Ảnh minh họa](images/cau81.jpg)
+
+=> Sau đó, nhập ID là mã số thuế và nhập mã kiểm tra
+![Ảnh minh họa](images/cau82.jpg)
+
+Tiếp tục nhập mật khẩu => nhấn Đăng nhập
+![Ảnh minh họa](images/cau83.jpg)
+
+Bước 2: Chọn Đăng ký thuế => chọn thay đổi thông tin
+![Ảnh minh họa](images/cau84.jpg)
+
+Giao diện hiện ra:
+![Ảnh minh họa](images/cau85.jpg)
+
+Kéo xuống dưới cùng, tích vào ô lấy thông tin cá nhân
+![Ảnh minh họa](images/cau86.jpg)
+
+Tất cả các thông tin tại mục: Địa chỉ nơi thường trú/Địa chỉ hiện tại sẽ được cập nhật và hiện thị đầy đủ
+![Ảnh minh họa](images/cau87.jpg)
+![Ảnh minh họa](images/cau88.jpg)
+
+Sau đó, kéo lên trên cùng của trang webside => chọn Tick vào ô thay đổi thông tin (Tại đây, NNT bổ sung thông tin về căn cước công dân). Nếu vẫn không cho sửa thì ta bỏ tick và tick lại lần nữa
+![Ảnh minh họa](images/cau89.jpg)
+
+Thực hiện cập nhật thông tin vào các ô bên dưới: Số giấy tờ/Ngày cấp/Nơi cấp
+![Ảnh minh họa](images/cau810.jpg)
+
+Tiếp tục, kéo xuống dưới cùng trang webside, có ô Không nhận kết quả tại trụ sở CQT
+Lưu ý: Trên tờ khai có nút tích “Không nhận kết quả tại trụ sở CQT”
+-	NNT có tích chọn: “Không nhận kết quả tại trụ sở CQT” thì hình thức gửi kết quả là “Qua bưu điện”
+-	NNT không có tích chọn: “Không nhận kết quả tại trụ sở CQT” thì hình thức gửi kết quả là “Điện tử”.
+![Ảnh minh họa](images/cau811.jpg)
+
+Sau đó, bấm nút tiếp tục
+ 
+Hệ thống sẽ chuyển đến tờ khai điều chỉnh, bổ sung thông tin đăng ký thuế
+![Ảnh minh họa](images/cau812.jpg)
+
+NNT kiểm tra kỹ thông tin => Nếu đúng chọn Nộp hồ sơ đăng ký thuế, trong trường hợp muốn in hồ sơ đăng ký thuế thì bấm vào ô in hồ sơ đăng ký thuế
+![Ảnh minh họa](images/cau813.jpg)
+![Ảnh minh họa](images/cau814.jpg)
+
+NNT kiểm tra kỹ thông tin => Nếu đúng chọn Nộp hồ sơ đăng ký thuế
+![Ảnh minh họa](images/cau815.jpg)
+
+NNT cần tải thông tin là ảnh chụp Căn cước công dân (nếu bổ sung CCCD), giấy tờ xác nhận nơi cư trú như hộ khẩu,tạm trú – tạm vắng (nếu cần THAY ĐỔI NƠI CƯ TRÚ)
+Ví dụ ở đây thông tin ta cần bổ sung là Căn cước công dân (nếu bổ sung CCCD) => bấm tiếp tục
+![Ảnh minh họa](images/cau816.jpg)
+![Ảnh minh họa](images/cau817.jpg)
+
+Nhập mã kiểm tra
+![Ảnh minh họa](images/cau818.jpg)
+
+Sẽ có 01 mã OTP được gởi về số điện thoại của chủ tài khoản => nhập mã OTP này vào
+![Ảnh minh họa](images/cau819.jpg)
+
+Sau khi nhập mã OTP và bấm tiếp tục => hệ thống sẽ báo hồ sơ thay đổi thông tin đăng ký thuế đã được gửi thành công. Vui lòng chờ xử lý!
+![Ảnh minh họa](images/cau820.jpg)
+
+Sẽ có thông báo gởi về email và số điện thoại của NNT
+![Ảnh minh họa](images/cau821.jpg)
+
+Sau khi gửi thì hồ sơ sẽ ở trạng thái chờ phê duyệt.
+Có thể tra cứu thông tin trên mạng để biết đã cập nhật hay chưa Sau 3 ngày làm việc, NNT có thể liên hệ số ĐT 0236.3752167 (Gặp Thanh Xuân) nếu ở địa bàn quận Thanh Khê và số ĐT 0236.3842370 (gặp Thanh Thảo) nếu ở địa bàn quận Liên Chiểu để được hỗ trợ.
 
