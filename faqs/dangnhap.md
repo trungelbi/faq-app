@@ -319,4 +319,66 @@ Sẽ có thông báo gởi về email và số điện thoại của NNT
 
 Sau khi gửi thì hồ sơ sẽ ở trạng thái chờ phê duyệt.
 Có thể tra cứu thông tin trên mạng để biết đã cập nhật hay chưa Sau 3 ngày làm việc, NNT có thể liên hệ số ĐT 0236.3752167 (Gặp Thanh Xuân) nếu ở địa bàn quận Thanh Khê và số ĐT 0236.3842370 (gặp Thanh Thảo) nếu ở địa bàn quận Liên Chiểu để được hỗ trợ.
+---
+question: "HKD khoán không thuộc đối tượng HKD bắt buộc sử dụng HĐĐT khởi tạo từ máy tính tiền, cần hóa đơn điện tử đề giao cho khách hàng thì phải làm gì?"
+keywords: ["hkd", "đối tượng", "sử dụng", "hoá đơn điện tử", "khách hàng", "", ""]
+---
+HKD gửi đơn theo mẫu số 06/ĐN-PSĐT Phụ lục 1A ban hành theo NĐ số 70/2025/NĐ-CP đến cơ quan thuế đề nghị cấp HĐĐT có mã của cơ quan
+thuế và truy cập vào Cồng thông tin điện tử của Tổng cục Thuế để lập hóa đơn điện tử.
+Lưu ý: mức thuế khoán được xác định từ đầu năm không bao gồm doanh thu và thuế do sử dụng hóa đơn. Do vậy, Hộ khoán phải nộp thuế đối với doanh thu phát sinh trên hóa đơn đó theo từng lần phát sinh. Sau khi HKD nộp thuế, cơ quan thuế cấp mã của cơ quan thuế trên hóa
+đơn điện tử. Hộ kinh doanh chịu trách nhiệm về tính chính xác của các thông tin trên hóa đơn điện tử theo từng lần phát sinh được cơ quan thuế cấp mã.
+Cách xác định cơ quan thuế cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh như sau:
++ HKD có địa điểm kinh doanh cố định: nộp hồ sơ đề nghị cấp hóa đơn điện từ có mã của cơ quan thuế theo từng lần phát sinh tại Thuế cơ sở quản lý nơi hộ, cá nhân kinh doanh tiến hành hoạt động kinh doanh.
+- HKD không có địa điểm kinh doanh cố định: nộp hồ sơ đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh tại Thuế cơ sở nơi cá nhân cư trú hoặc nơi hộ, cá nhân đăng ký kinh doanh.
+HKD có thể tra cứu Thuế cơ sở theo địa bàn quản lý tại QĐ số 1378/QĐ-CT của Cục Thuế ngày 30/06/2025 quy định tên gọi, trụ sở, địa bàn quản lý của các Thuế cơ sở thuộc Thuế tỉnh, thành phố trực thuộc Trung ương.
+---
+question: "HKD muốn sử dụng hóa đơn điện tử kết nối máy tính tiền cần phải làm gì?"
+keywords: ["hkd", "máy tính", "sử dụng", "hoá đơn điện tử", "kết nối", "", ""]
+---
+Cần chuẩn bị thiết bị cài đặt phần mềm xuất hóa đơn
+1.Thiết bị (điện thoại di động, máy tính, máy tính bảng ... ) kết nối internet cài phần mềm tính tiền bán hàng
+2. Phần mềm xuất hóa đơn điện tử, chuyển dữ liệu theo thời gian thực đến cơ quan thuế
+Cần đăng ký sử dụng hóa đơn khởi tạo từ máy tính tiền với cơ quan thuế
+Sau khi đã có thiết bị và phần mềm, HKD cần đăng ký sử dụng hóa đơn khởi tạo từ máy tính tiền với cơ quan thuế
+HKD đăng ký và sử dụng HĐĐT khởi tạo từ máy tính tiền theo mẫu số 01/ĐKTĐ-HĐĐT Phụ lục IA ban hành kèm theo Nghị định 123/2020/NĐ-CP ngày 19/10/2020 của Chính phủ.
+- Nếu là lần đầu sử dụng HĐĐT và thuộc đối tượng áp dụng HĐĐT có mã của cơ quan thuế khởi tạo từ máy tính tiền thì HKD thực hiện đăng ký qua tổ chức cung cấp dịch vụ hóa đơn điện tử.
+- Nếu HKD trước đây đã thực hiện đăng ký sử dụng HĐĐT thành công và muốn đăng ký sử dụng HĐĐT có mã của cơ quan thuế khởi tạo từ máy tính tiền thì thực hiện thay đồi thông tin đăng ký sử dụng HĐĐT qua tổ chức cung cấp dịch vụ hoặc trên trang hoadondientu.gdt.gov.vn
+Cá nhân có thể đăng ký và sử dụng chữ ký số miễn phí trên ứng dụng Vneid khi đã kích hoạt tài khoản định danh mức 2
+Trên thị trường hiện nay có nhiều phần mềm bán hàng tích hợp xuất hóa đơn điện tử ví dụ có phần mềm chuyên chỉ xuất hóa đơn điện tử không có hoặc rất ít chức năng quản lý bán hàng, có phần mềm giúp quản lý đầy đủ như quản lý hang tồn kho, doanh thu, lợi nhuận, giá vốn, công nợ ... do vậy, HKD cần lựa chọn kỹ loại phần mềm nào phù hợp với nhu cầu, quy mô hoạt động kinh doanh cùa mình.
+---
+question: "QUY ĐỊNH VỀ HOA ĐƠN ĐIỆN TỬ ĐỐI VỚI HKD"
+keywords: ["hkd", "quy định", "", "hoá đơn điện tử", "", "", ""]
+---
+Hóa đơn điện tử khởi tạo từ máy tính tiền là hóa đơn có mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền do tồ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập từ hệ thống tính tiền, dữ liệu được chuyển đến cơ quan thuế.
+Một trong những điểm khác biệt lớn so với hóa đơn điện tử thông thường là hóa đơn từ máy tính tiền không yêu cầu chữ ký số của người bán.
+Theo quy định, các khoản chi sử dụng hóa đơn khởi tạo từ máy tính tiền (dù là bản in, bản sao hoặc thông tin tra cứu trên Cồng thông tin của Cục Thuế) vẫn được xác định là chi phí hợp lệ khi kê khai thuế.
+Hóa đơn khởi tạo từ máy tính tiền cần đảm bảo các nội dung cơ bản theo quy định, bao gồm:
+-Tên, địa chỉ và mã số thuế của người bán.
+-Thông tin người mua (nếu người mua yêu cầu) như tên, địa chỉ, mã định danh cá nhân, số điện thoại.
+-Tên hàng hóa, dịch vụ; đơn giá; số lượng; giá thanh toán.
+- Thời điểm lập hóa đơn.
+- Mã của cơ quan thuế hoặc dữ liệu điện tử để người mua có thể truy xuất, kê khai thông tin hóa đơn điện tử khởi tạo từ máy tính tiền.
+Người bán gửi hoá đơn điện tử cho người mua bằng hình thức điện tử (tin nhắn, thư điện tử và các hình thức khác) hoặc cung cấp đường dẫn hoặc mã QR đề người mua tra cứu, tải hoa đơn điện tử.
+---
+question: "Có phải tất cả các HKD bắt buộc phải sử dụng hóa đơn điện tử từ ngày 01/06/2025 không?"
+keywords: ["hkd", "sử dụng", "", "01/06/2025", "", "", ""]
+---
+Không. Từ 01/06/2025, HKD có doanh thu từ 1 tỷ đồng/năm trờ lên, bán hàng hóa, cung cấp dịch vụ trực tiếp cho người tiêu dùng bắt buộc phải áp dụng hóa đơn khởi tạo từ máy tính tiền kết nối truyền dữ liệu với cơ quan thuế.
+Hộ kinh doanh thuộc đối tượng phải sử dụng HDĐT khời tạo từ máy tính tiền nhưng không chuyến đổi, đăng ký sử dụng thì được xác định là hành vi vi phạm quy định về sử dụng hóa đơn và HKD có thể bị phạt từ 02-10 triệu đồng
+Theo số liệu của cơ quan thuế, tính đến tháng 03/2025 cà nước có khoảng 37.000 hộ kinh doanh có doanh thu trên 1 tỷ đồng thuộc diện bắt buộc sử dụng hóa đơn điện tử, chiếm khoảng 1% trong số hộ kinh doanh đang quản lý
+---
+question: "HKD phải nộp các loại thuế nào?"
+keywords: ["hkd", "thuế", "", "loại", "", "", ""]
+---
+![Ảnh minh họa](images/thue.png)
+---
+question: "Hướng dẫn hộ kinh doanh nộp thuế trên ứng dụng etax mobile?"
+keywords: ["hkd", "thuế", "hướng dẫn", "ứng dụng", "etax", "nộp", "mobile"]
+---
+![Ảnh minh họa](images/thue1.png)
+---
+question: "Quy định về HKD tạm ngừng kinh doannh? Quy định về hkd chấm dứt hoạt động?"
+keywords: ["hkd", "ngừng kinh doannh", "chấm dứt", "hoạt động", "", "", ""]
+---
+![Ảnh minh họa](images/thue2.png)
 
