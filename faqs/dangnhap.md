@@ -74,8 +74,8 @@ Bước 3: NNT nhập tên đăng nhập/mật khẩu nhấn “Đăng nhập”
 •	Hoạt động: Hệ thống đăng nhập thành công, hiển thị màn hình Trang chủ TTHC
 ![Ảnh minh họa](images/dangnhap8.png)
 ---
-question: "Cách tạo mã số thuế cá nhân - mẫu 05/DK"
-keywords: ["mã số thuế", "cá nhân", "05"]
+question: "Cấp mã số thuế cá nhân lần đầu - mẫu 05/DK"
+keywords: ["mã số thuế", "cá nhân", "05", "lần đầu"]
 ---
 Hướng dẫn NNT kê khai tờ khai đăng ký thuế (dùng cho cá nhân) mẫu số 05-ĐK-TCT đáp ứng Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ trưởng Bộ Tài chính
 Bước 1: Chọn TTHC
