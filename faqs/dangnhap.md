@@ -381,4 +381,9 @@ question: "Quy định về HKD tạm ngừng kinh doannh? Quy định về hkd 
 keywords: ["hkd", "ngừng kinh doannh", "chấm dứt", "hoạt động", "", "", ""]
 ---
 ![Ảnh minh họa](images/thue2.png)
+---
+question: "Lợi ích kép cho doanh nghiệp và người tiêu dùng khi Nghị định số 174/2025/NĐ-CP ngày 30/6/2025 của Chính phủ có hiệu lực TỪ NGÀY 01/7/2025 ĐỀN NGÀY 31/12/2026"
+keywords: ["lợi ích", "doanh nghiệp", "nghị định", "hiệu lực", "", "", ""]
+---
+![Ảnh minh họa](images/thue.jpg)
 
